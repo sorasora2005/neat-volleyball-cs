@@ -25,20 +25,20 @@ pip install -r requirements.txt
 ## 起動方法
 ```bash
 # 訓練（並列）
-python experiments/0716/train_curriculum_parallel.py
+python train_curriculum_parallel.py
 
 # 訓練（逐次）
-python experiments/0716/train_curriculum_sequential.py
+python train_curriculum_sequential.py
 
 # 可視化プレイ（AI vs 人間）
-python experiments/0716/play_vs_ai_network.py
+python play_vs_ai_network.py
 
 # 可視化プレイ（AI vs ベースライン、--auto）
-python experiments/0716/play_vs_ai_network.py --auto
+python play_vs_ai_network.py --auto
 
 # チェックポイントを指定
-python experiments/0716/play_vs_ai_network.py --auto ../ckpts_parallel/ckpt-793
+python play_vs_ai_network.py --auto ./ckpts_parallel/ckpt-100
 
 # GIF 生成
-python experiments/0716/visualize_match.py ../ckpts_parallel/ckpt-793 match.gif
+python visualize_match.py ./ckpts_parallel/ckpt-100 match.gif
 ```
