@@ -21,9 +21,6 @@ pip install -r requirements.txt
 | opencv-python | play_vs_ai_network.py | ゲーム画面のリサイズ |
 | Pillow | visualize_match.py | GIF 生成 |
 
-## macOS 注意点
-pygame 使用時は `pygame.key.stop_text_input()` の呼び出しが必要。
-スクリプト内にすでに実装済み。
 
 ## 起動方法
 ```bash
