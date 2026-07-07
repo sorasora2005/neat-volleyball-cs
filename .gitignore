@@ -1,0 +1,10 @@
+ckpts_parallel/
+ckpts_sequential/
+winner_parallel.pkl
+winner_sequential.pkl
+*.gif
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store

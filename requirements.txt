@@ -1,0 +1,8 @@
+neat-python>=2.0
+gym>=0.26
+gymnasium>=1.0
+slimevolleygym>=0.1
+numpy>=1.26
+pygame>=2.5
+opencv-python>=4.5
+Pillow>=10.0
